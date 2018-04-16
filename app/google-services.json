@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330414208869",
+    "firebase_url": "https://drycapp-91496.firebaseio.com",
+    "project_id": "drycapp-91496",
+    "storage_bucket": "drycapp-91496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330414208869:android:8acac4566c4aec2d",
+        "android_client_info": {
+          "package_name": "com.drycapp.finalyearapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330414208869-nf5e386v5b9nunvm20s3btaeugcm3vco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drycapp.finalyearapp",
+            "certificate_hash": "752aa98afd917b2e8adb46d5a131831c55bc30f7"
+          }
+        },
+        {
+          "client_id": "330414208869-dqqggqb587rbdmlncd4loolclctule9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqg3HyavuRe_MeQDPQ6O2_XkP6gzFpXHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330414208869-dqqggqb587rbdmlncd4loolclctule9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
