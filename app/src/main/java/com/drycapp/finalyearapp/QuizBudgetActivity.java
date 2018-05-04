@@ -3,6 +3,7 @@ package com.drycapp.finalyearapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -27,6 +28,11 @@ public class QuizBudgetActivity extends AppCompatActivity {
         mExpensive = findViewById(R.id.buttonExpensive);
         mLavish = findViewById(R.id.buttonLavish);
 
+        Toolbar toolbar = findViewById(R.id.toolbarBudget);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         mAuth = FirebaseAuth.getInstance();
 
         //When register button is clicked...
@@ -34,7 +40,7 @@ public class QuizBudgetActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //send user to register page
-                startActivity(new Intent(QuizBudgetActivity.this, QuizResultsActivity.class));
+                startActivity(new Intent(QuizBudgetActivity.this, EventsDisplayActivity.class));
 
             }
         });

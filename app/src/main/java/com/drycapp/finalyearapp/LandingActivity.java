@@ -47,6 +47,8 @@ public class LandingActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbarLanding);
         setSupportActionBar(toolbar);
+
+
         mAuth = FirebaseAuth.getInstance();
 
         //When register button is clicked...

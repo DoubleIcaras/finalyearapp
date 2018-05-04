@@ -3,6 +3,7 @@ package com.drycapp.finalyearapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -26,6 +27,11 @@ public class QuizPartySizeActivity extends AppCompatActivity {
         mTwo = findViewById(R.id.buttonModerate);
         mThree = findViewById(R.id.buttonExpensive);
         mFour = findViewById(R.id.buttonFour);
+
+        Toolbar toolbar = findViewById(R.id.toolbarPartySize);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();
 

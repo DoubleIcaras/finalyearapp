@@ -16,44 +16,31 @@
   -->
 <resources>
     <string-array name="places">
-        <item>Palais Garnie</item>
-        <item>Piazza del Duomo</item>
-        <item>Manhattan</item>
-        <item>Senso-ji</item>
-        <item>Sultan Ahmed Mosque</item>
-        <item>Table Mountain</item>
+        <item>Big Easy</item>
+        <item>Pizza Pilgrims</item>
+        <item>McDonald's</item>
+        <item>Starbucks</item>
+        <item>Costa</item>
+        <item>Waitrose</item>
     </string-array>
     <string-array name="place_desc">
-        <item>The Palais Garnier which locates in Paris was built from 1861 for
-        the Paris Opera.
-        </item>
-        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
-        <item>Manhattan is the district in New York City</item>
-        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
-        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
-        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+        <item>description goes here</item>
+        <item>description goes here</item>
+        <item>description goes here</item>
+        <item>description goes here</item>
+        <item>description goes here</item>
+        <item>description goes here?</item>
     </string-array>
     <string-array name="place_details">
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>Large Black renowned for the quality and flavour of their meat. Pig_72. At Covent Garden and Canary Wharf we cook real
+            home-smoked U.S Bar.B.Q the old school way with wood and time. At Kings Road all our Baby Back Ribs are cooked fresh on our
+            Parilla Charcoal Grill. Our guide to the 4 main styles of the Big Easy ...
         </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>Pizza Pilgrims serve the best Neapolitan pizza in central London and Oxford, eat in at some of our central London venues,
+            takeaway or get Pizza delivery.
         </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>McDonald's is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald,
+            in San Bernardino, California, United States.
         </item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -78,12 +65,12 @@
         </item>
     </string-array>
     <string-array name="place_locations">
-        <item>8 Rue Scribe, 75009 Paris, France</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
-        <item>New York City</item>
+        <item>Canary Wharf</item>
+        <item>Shoreditch</item>
+        <item>Waterloo</item>
         <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
-        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
-        <item>Cape Town, South Africa</item>
+        <item>Kazakstan</item>
+        <item>Riverview Court</item>
     </string-array>
     <array name="place_avator">
         <item>@drawable/a_avator</item>

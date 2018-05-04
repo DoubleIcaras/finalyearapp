@@ -3,6 +3,7 @@ package com.drycapp.finalyearapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -27,6 +28,11 @@ public class QuizLocationActivity extends AppCompatActivity {
         mEast = findViewById(R.id.buttonEast);
         mSouth = findViewById(R.id.buttonSouth);
         mWest = findViewById(R.id.buttonWest);
+
+        Toolbar toolbar = findViewById(R.id.toolbarLocation);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();
 

@@ -3,6 +3,7 @@ package com.drycapp.finalyearapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,13 +20,18 @@ public class QuizEventActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_type);
+        setContentView(R.layout.activity_quiz_event);
 
         //id to xml
         mFood = findViewById(R.id.buttonFood);
         mCulture = findViewById(R.id.buttonCulture);
         mNightlife = findViewById(R.id.buttonNightlife);
         mWellness = findViewById(R.id.buttonWellness);
+
+        Toolbar toolbar = findViewById(R.id.toolbarEvent);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();
 

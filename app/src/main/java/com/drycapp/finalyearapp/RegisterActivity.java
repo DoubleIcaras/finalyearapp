@@ -187,7 +187,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void uploadAvatar(){
-        //DatabaseReference profileReference = firebaseDatabase.getReference().child("Users").child(mAuth.getCurrentUser().getUid());
+        //DatabaseReference databaseReference = firebaseDatabase.getReference().child("Users").child(mAuth.getCurrentUser().getUid());
         StorageReference imageReference = storageReference.child(mAuth.getCurrentUser().getUid()).child("Images").child("ProfilePicture");//UserID/Images/ProfilePicture/
         UploadTask uploadTask = imageReference.putFile(imagePath);
         uploadTask.addOnFailureListener(new OnFailureListener() {

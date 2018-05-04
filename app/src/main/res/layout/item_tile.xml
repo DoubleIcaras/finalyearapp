@@ -19,6 +19,7 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
     android:padding="@dimen/tile_padding">
 
     <ImageView
@@ -40,7 +41,7 @@
         android:layout_height="@dimen/tile_height"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/item_title"
+        tools:text="@string/item_title"
         android:textColor="@color/white"
         android:textSize="@dimen/article_titles" />
 </RelativeLayout>

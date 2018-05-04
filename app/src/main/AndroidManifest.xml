@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        //Registration Activites and User Control
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,13 +17,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LandingActivity" />
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".LandingActivity" />
         <activity android:name=".LostActivity" />
-        <activity android:name=".QuizLocationActivity" />
-        <activity android:name=".QuizEventActivity" />
-        <activity android:name=".QuizBudgetActivity" />
-        <activity android:name=".QuizPartySizeActivity" />
+        //Quiz Activities
+        <activity
+            android:name=".QuizLocationActivity"
+            android:parentActivityName=".LandingActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LandingActivity" />
+        </activity>
+        <activity
+            android:name=".QuizEventActivity"
+            android:parentActivityName=".QuizLocationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizLocationActivity" />
+        </activity>
+        <activity
+            android:name=".QuizBudgetActivity"
+            android:parentActivityName=".QuizPartySizeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizPartySizeActivity" />
+        </activity>
+        <activity
+            android:name=".QuizPartySizeActivity"
+            android:parentActivityName=".QuizEventActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizEventActivity" />
+        </activity>
+        //Settings and Profile Activities
         <activity android:name=".MyEventsActivity" />
         <activity android:name=".InviteActivity" />
         <activity android:name=".SettingsActivity" />
@@ -30,8 +57,16 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".UpdateProfile" />
         <activity android:name=".UpdatePassword" />
-        <activity android:name=".SplashScreenActivity" />
-        <activity android:name=".QuizResultsActivity"></activity>
+        <activity
+            android:name=".DetailActivity"
+            android:parentActivityName=".QuizResultsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizResultsActivity" />
+        </activity>
+        <activity android:name=".QuizResultsActivity" />
+        <activity android:name=".EventsDisplayActivity" />
+        <activity android:name=".EventDetailActivity"></activity>
     </application>
 
 </manifest>
