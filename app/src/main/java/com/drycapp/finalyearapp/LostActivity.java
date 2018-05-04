@@ -1,9 +1,9 @@
 package com.drycapp.finalyearapp;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,8 +24,8 @@ public class LostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lost);
         //refference variables to xml
-        mEmail = (EditText) findViewById(R.id.editTextLostPassword);
-        mRecoverPassword = (Button) findViewById(R.id.buttonResetPassword);
+        mEmail = findViewById(R.id.editTextLostPassword);
+        mRecoverPassword = findViewById(R.id.buttonResetPassword);
         firebaseAuth = FirebaseAuth.getInstance();
         //when recover password is clicked...
         mRecoverPassword.setOnClickListener(new View.OnClickListener() {

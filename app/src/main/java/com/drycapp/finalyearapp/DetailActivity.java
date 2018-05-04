@@ -25,8 +25,6 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.drycapp.finalyearapp.R;
-
 /**
  * Provides UI for the Detail page with Collapsing Toolbar.
  */
